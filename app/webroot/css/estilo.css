@@ -1,0 +1,82 @@
+.tit_page{ font-family:"Open sans", Arial; font-weight:600;}
+.content{ width:900px; margin:auto;}
+h3{font-weight: 600!important; font-size:36px;}
+
+#header {
+border-top: 4px solid #BBB;
+background: #f0f0f0 url(images/bg_header.jpg) repeat-X top center;
+position: relative;
+z-index: 1;
+}
+
+#header .limit {
+height: 147px;
+overflow:hidden;
+}
+
+#menuPrincipal {
+	float:right;
+padding: 7px 0 0;
+clear:none;
+margin: 0;
+background: none;
+border-top: 0px;
+border-bottom: 4px solid #777;
+position: relative;
+z-index: 2;
+width: 270px;
+margin-top: 10px;
+border-bottom:0px !important;
+}
+
+#logo_sistema{
+	float: left;
+	margin-top: 60px;
+}
+
+#menuPrincipal>ul>li{ background:none;}
+#menuPrincipal>ul>li>a { color:#fff; background:none;}
+#menuPrincipal>ul>li.selected>a {
+	background-image: url(img/bgMenu.png);
+	background-repeat: repeat-x;
+	color: #666;
+	background-color: #fff;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px
+}
+#menuPrincipal>ul>li.selected>a:hover{ color:#666;}
+
+.sidebar_menu{
+	float: left;
+	width:180px;
+	/*border:1px solid #e8e8e8;*/
+	font-size:12px !important;
+	background:url(images/bg_menu_lists.jpg) right repeat-y;
+	
+}
+
+#menu_cadastros{
+	background:url(images/th_menu_cadastros.jpg) right no-repeat #5c6574;
+}
+
+#menu_relatorios{
+	background:url(images/th_menu_relatorios.jpg) right no-repeat #5c6574;
+}
+
+#menu_fiscal{
+	background:url(images/th_menu_fiscal.jpg) right no-repeat #5c6574;
+}
+
+#content_right{
+	float: left;
+	width: 790px;
+	margin-left:10px;
+}
+
+footer#rodape{ position:relative;}
+
+.nav-list li> a{ border-left: 1px dotted #e8e8e8; border-right:1px dotted #e8e8e8;}
+.input-prepend .label_input{width:150px; text-align:right; font-size:12px !important;}
+
+.input_prepend{ display:block;  margin-bottom:-5px;}
+.input_prepend .label_input{width:150px; float:left; background:#EEEEEE; border:1px solid #ccc; padding:4px 5px; text-align:right; font-size:12px !important;}
